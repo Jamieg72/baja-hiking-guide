@@ -1,1 +1,170 @@
-[{"name": "Asakusa Station", "kind": "Starting point", "description": "Begin at Tokyo Metro Asakusa Station. Check your map, start your recording, and head toward Kaminarimon Gate.", "photos": ["IMG_9341.jpg"], "coordinates": [35.710699, 139.797062], "approx": true}, {"name": "Kaminarimon Gate", "kind": "Temple gateway", "description": "This iconic Thunder Gate marks the entrance to Sensō-ji. Look for its huge red lantern and guardian figures representing thunder and wind.", "photos": ["AA2B4503-BEEB-4D05-9566-277BE577D168.jpg", "65EDEAC1-5065-40C1-9A0B-85C83634C385.jpg"], "coordinates": [35.711213, 139.796373], "approx": true}, {"name": "Nakamise and Sensō-ji", "kind": "Historic temple district", "description": "Walk along Nakamise shopping street toward Sensō-ji, one of Tokyo’s best-known Buddhist temples. Look for the enormous temple gates, five-story pagoda, and main hall.", "photos": ["IMG_9350.jpg", "1A029790-45E8-418C-8FA8-3A46FCA77D5E.jpg", "IMG_9358.jpg", "IMG_9359.jpg", "IMG_9362.jpg"], "coordinates": [35.714445, 139.796827], "approx": true}, {"name": "Sumida River / Skytree", "kind": "Photo viewpoint", "description": "Stop beside the Sumida River for a clear view of the Tokyo Skytree. This is a strong contrast with the old temple neighborhood.", "photos": ["CE9EB5B7-24CE-4225-984D-289BD9BA3354.jpg"], "coordinates": [35.713519, 139.801477], "approx": true}, {"name": "Kappabashi Kitchen Town", "kind": "Shopping district", "description": "A traditional district known for restaurant supplies, knives, tableware, and remarkably realistic food models.", "photos": ["IMG_9350.jpg"], "coordinates": [35.714657, 139.788179], "approx": true}, {"name": "Tokyo National Museum", "kind": "Museum grounds", "description": "The Tokyo National Museum preserves and exhibits Japanese and Asian art and cultural objects. The exterior and entrance are worthwhile photo stops even without going inside.", "photos": ["IMG_9374.jpg", "D789A442-3914-44F6-977C-DD1314B76613.jpg", "IMG_9377.jpg", "IMG_9378.jpg"], "coordinates": [35.717653, 139.775622], "approx": true}, {"name": "Ueno Park", "kind": "Garden and cultural district", "description": "Ueno Park brings together tree-lined paths, museums, public art, and open plazas. Pause at the fountain plaza for photographs.", "photos": ["IMG_9383.jpg", "IMG_9386.jpg", "IMG_9389.jpg", "IMG_9392.jpg", "IMG_9393.jpg"], "coordinates": [35.715662, 139.773815], "approx": true}, {"name": "Kan’ei-ji Pagoda", "kind": "Historic structure", "description": "The five-story pagoda is part of the surviving historic Kan’ei-ji temple complex in Ueno.", "photos": ["IMG_9393.jpg"], "coordinates": [35.715293, 139.771884], "approx": true}, {"name": "Ueno Tōshō-gū", "kind": "Ornate shrine", "description": "This Shinto shrine honors Tokugawa Ieyasu. Look for its elaborate gold decoration and impressive entrance.", "photos": ["82938387-C831-434E-8E36-4A7C11CEA8FB.jpg"], "coordinates": [35.715343, 139.77102], "approx": true}, {"name": "Shinobazu Pond / Bentendō", "kind": "Pondside temple", "description": "A temple on an island in Shinobazu Pond. Enjoy the waterside views; nearby buildings include a hall dedicated to Daikokuten.", "photos": ["3B9558AC-E672-4E13-BD50-9A457D9C8F82.jpg", "IMG_9403.jpg"], "coordinates": [35.710085, 139.77234], "approx": true}, {"name": "Ameyoko Market", "kind": "Lively market", "description": "Explore the shopping alleys and food stalls near the railway tracks. This market district grew rapidly in the years after World War II.", "photos": ["7BB2D349-332A-46EF-8546-7B95E6C17AED.jpg"], "coordinates": [35.70914, 139.774108], "approx": true}, {"name": "Ueno Station", "kind": "Finish", "description": "Your walk ends at Ueno Station. Review your distance and photos before leaving.", "photos": ["IMG_9412.jpg"], "coordinates": [35.711779, 139.775694], "approx": true}]
+[
+  {
+    "name": "Asakusa Station",
+    "kind": "Starting point",
+    "description": "Begin at Tokyo Metro Asakusa Station. Check your map, start your recording, and head toward Kaminarimon Gate.",
+    "photos": [
+      "IMG_9341.jpg"
+    ],
+    "coordinates": [
+      35.710699,
+      139.797062
+    ],
+    "approx": true
+  },
+  {
+    "name": "Kaminarimon Gate",
+    "kind": "Temple gateway",
+    "description": "Kaminarimon means “Thunder Gate” in Japanese. This famous entrance to Sensō-ji Temple traces its origins to 942. Its statues portray Raijin, god of thunder, and Fūjin, god of wind, who guard the temple against disasters. The huge red lantern is 3.9 meters tall and weighs about 700 kilograms. The present gate was rebuilt in 1960 through a donation by Panasonic founder Kōnosuke Matsushita. Look beneath the lantern to spot the carved dragon.",
+    "photos": [
+      "65EDEAC1-5065-40C1-9A0B-85C83634C385.jpg"
+    ],
+    "coordinates": [
+      35.711213,
+      139.796373
+    ],
+    "approx": true
+  },
+  {
+    "name": "Nakamise and Sensō-ji",
+    "kind": "Historic temple district",
+    "description": "Walk along Nakamise shopping street toward Sensō-ji, one of Tokyo’s best-known Buddhist temples. Look for the enormous temple gates, five-story pagoda, and main hall.",
+    "photos": [
+      "IMG_9350.jpg",
+      "1A029790-45E8-418C-8FA8-3A46FCA77D5E.jpg",
+      "IMG_9358.jpg",
+      "IMG_9359.jpg",
+      "IMG_9362.jpg"
+    ],
+    "coordinates": [
+      35.714445,
+      139.796827
+    ],
+    "approx": true
+  },
+  {
+    "name": "Sumida River / Skytree",
+    "kind": "Photo viewpoint",
+    "description": "Stop beside the Sumida River for a clear view of the Tokyo Skytree. This is a strong contrast with the old temple neighborhood.",
+    "photos": [
+      "CE9EB5B7-24CE-4225-984D-289BD9BA3354.jpg"
+    ],
+    "coordinates": [
+      35.713519,
+      139.801477
+    ],
+    "approx": true
+  },
+  {
+    "name": "Kappabashi Kitchen Town",
+    "kind": "Shopping district",
+    "description": "A traditional district known for restaurant supplies, knives, tableware, and remarkably realistic food models.",
+    "photos": [
+      "IMG_9350.jpg"
+    ],
+    "coordinates": [
+      35.714657,
+      139.788179
+    ],
+    "approx": true
+  },
+  {
+    "name": "Tokyo National Museum",
+    "kind": "Museum grounds",
+    "description": "The Tokyo National Museum preserves and exhibits Japanese and Asian art and cultural objects. The exterior and entrance are worthwhile photo stops even without going inside.",
+    "photos": [
+      "IMG_9374.jpg",
+      "D789A442-3914-44F6-977C-DD1314B76613.jpg",
+      "IMG_9377.jpg",
+      "IMG_9378.jpg"
+    ],
+    "coordinates": [
+      35.717653,
+      139.775622
+    ],
+    "approx": true
+  },
+  {
+    "name": "Ueno Park",
+    "kind": "Garden and cultural district",
+    "description": "Ueno Park brings together tree-lined paths, museums, public art, and open plazas. Pause at the fountain plaza for photographs.",
+    "photos": [
+      "IMG_9383.jpg",
+      "IMG_9386.jpg",
+      "IMG_9389.jpg",
+      "IMG_9392.jpg",
+      "IMG_9393.jpg"
+    ],
+    "coordinates": [
+      35.715662,
+      139.773815
+    ],
+    "approx": true
+  },
+  {
+    "name": "Kan’ei-ji Pagoda",
+    "kind": "Historic structure",
+    "description": "The five-story pagoda is part of the surviving historic Kan’ei-ji temple complex in Ueno.",
+    "photos": [
+      "IMG_9393.jpg"
+    ],
+    "coordinates": [
+      35.715293,
+      139.771884
+    ],
+    "approx": true
+  },
+  {
+    "name": "Ueno Tōshō-gū",
+    "kind": "Ornate shrine",
+    "description": "This Shinto shrine honors Tokugawa Ieyasu. Look for its elaborate gold decoration and impressive entrance.",
+    "photos": [
+      "82938387-C831-434E-8E36-4A7C11CEA8FB.jpg"
+    ],
+    "coordinates": [
+      35.715343,
+      139.77102
+    ],
+    "approx": true
+  },
+  {
+    "name": "Shinobazu Pond / Bentendō",
+    "kind": "Pondside temple",
+    "description": "A temple on an island in Shinobazu Pond. Enjoy the waterside views; nearby buildings include a hall dedicated to Daikokuten.",
+    "photos": [
+      "3B9558AC-E672-4E13-BD50-9A457D9C8F82.jpg",
+      "IMG_9403.jpg"
+    ],
+    "coordinates": [
+      35.710085,
+      139.77234
+    ],
+    "approx": true
+  },
+  {
+    "name": "Ameyoko Market",
+    "kind": "Lively market",
+    "description": "Explore the shopping alleys and food stalls near the railway tracks. This market district grew rapidly in the years after World War II.",
+    "photos": [
+      "7BB2D349-332A-46EF-8546-7B95E6C17AED.jpg"
+    ],
+    "coordinates": [
+      35.70914,
+      139.774108
+    ],
+    "approx": true
+  },
+  {
+    "name": "Ueno Station",
+    "kind": "Finish",
+    "description": "Your walk ends at Ueno Station. Review your distance and photos before leaving.",
+    "photos": [
+      "IMG_9412.jpg"
+    ],
+    "coordinates": [
+      35.711779,
+      139.775694
+    ],
+    "approx": true
+  }
+]
