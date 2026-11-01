@@ -1,1 +1,8 @@
-const CACHE='baja-hikes-tokyo-v4';self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(['./','./index.html','./manifest.webmanifest','./icon.svg','./tokyo-track.json','./tokyo-stops.json']))));self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(u.origin!==location.origin)return;e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request).then(response=>{if(response.ok){const copy=response.clone();caches.open(CACHE).then(c=>c.put(e.request,copy))}return response})))})
+const CACHE='baja-hikes-tokyo-v5';
+const CORE=['./','./index.html','./manifest.webmanifest','./icon.svg','./tokyo-track.json','./tokyo-stops.json'];
+self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()))});
+self.addEventListener('activate',event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE&&k.startsWith('baja-hikes-')).map(k=>caches.delete(k)))),self.clients.claim()]))});
+self.addEventListener('fetch',event=>{const req=event.request;if(req.method!=='GET'||new URL(req.url).origin!==self.location.origin)return;
+event.respondWith((async()=>{const cache=await caches.open(CACHE);
+try{const response=await fetch(req);if(response.ok)cache.put(req,response.clone());return response}
+catch(e){const saved=await cache.match(req);if(saved)return saved;throw e}})())});
