@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Deadman's Beach Overlook",
+    "kind": "Coastal viewpoint",
+    "description": "Look northwest across uninhabited Deadman's Beach. From summer into fall, sea turtles nest here. Enjoy this sensitive coastline from a respectful distance and never disturb nesting turtles, tracks or nests.",
+    "photos": [
+      "loop-deadmans.jpg"
+    ],
+    "coordinates": [
+      27.082465,
+      -111.97749
+    ],
+    "approx": true
+  },
+  {
+    "name": "Canyon Overlook",
+    "kind": "Canyon viewpoint",
+    "description": "Look down a beautiful coastal desert canyon that ends at the water. Seasonal changes bring different plants and wildlife.",
+    "photos": [
+      "loop-canyon.jpg"
+    ],
+    "coordinates": [
+      27.091732,
+      -111.974391
+    ],
+    "approx": true
+  },
+  {
+    "name": "Lighthouse Ridge Overlook",
+    "kind": "Coastal viewpoint",
+    "description": "From the coastal ridge, look toward the Punta Chivato lighthouse and across the dramatic rocky shoreline of the Sea of Cortez.",
+    "photos": [
+      "loop-lighthouse.jpg"
+    ],
+    "coordinates": [
+      27.085425,
+      -111.958026
+    ],
+    "approx": true
+  },
+  {
+    "name": "Secret Beach and Naked Beach View",
+    "kind": "Beach viewpoint",
+    "description": "An elevated coastal view over Secret Beach and Naked Beach, where turquoise coves meet rugged desert headlands.",
+    "photos": [
+      "loop-beaches.jpg",
+      "loop-beaches-closeup.jpg"
+    ],
+    "coordinates": [
+      27.08489,
+      -111.956044
+    ],
+    "approx": true
+  },
+  {
+    "name": "Naked and Secret Beach Panorama",
+    "kind": "Panoramic viewpoint",
+    "description": "Look down toward Naked Beach and Secret Beach, with the surrounding green desert canyon and distant mountain skyline.",
+    "photos": [
+      "loop-beaches-panorama.jpg"
+    ],
+    "coordinates": [
+      27.081518,
+      -111.952652
+    ],
+    "approx": true
+  }
+]
