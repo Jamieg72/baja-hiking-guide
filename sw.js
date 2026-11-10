@@ -1,4 +1,4 @@
-const CACHE='baja-hikes-loop-v2';
+const CACHE='baja-hikes-loop-v3';
 const CORE=['./','./index.html','./manifest.webmanifest','./icon.svg','./loop-track.json','./loop-stops.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE&&k.startsWith('baja-hikes-')).map(k=>caches.delete(k)))),self.clients.claim()]))});
